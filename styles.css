@@ -1,8 +1,82 @@
 :root {
   /* colors: */
   --white: hsl(0, 0%, 100%);
-  --grey: hsl(0, 0%, 20%);
-  --dark-grey: hsl(0, 0%, 12%);
-  --off-black: hsl(0, 0%, 8%);
+  --grey: hsl(0, 0%, 20%); /* buttons*/
+  --dark-grey: hsl(0, 0%, 12%); /*card background */
+  --off-black: hsl(0, 0%, 8%); /*body background*/
   --green: hsl(75, 94%, 57%);
+}
+
+/* style reset */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--off-black);
+  font-family: "Inter", sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background-color: var(--dark-grey);
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: center;
+  width: 384px;
+  height: 612px;
+  padding: 40px;
+}
+
+.card-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-header .card-image {
+  width: 88px;
+  height: 88px;
+  border-radius: 50%;
+  margin-bottom: 30px;
+}
+
+.card-header .user-name {
+  color: var(--white);
+  font-weight: 600;
+  margin-bottom: 14px;
+}
+
+.card-header .location {
+  color: var(--green);
+  font-size: 14px;
+}
+
+.card-content .about {
+  color: var(--white);
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.card-social-links li {
+  list-style: none;
+  margin-bottom: 1rem;
+}
+
+.card-social-links button {
+  width: 300px;
+  height: 46px;
+  color: var(--white);
+  font-size: 14px;
+  font-weight: 600;
+  background-color: var(--grey);
+  border: none;
+  border-radius: 10px;
 }
