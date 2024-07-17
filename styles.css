@@ -51,7 +51,7 @@ body {
 .card-header .user-name {
   color: var(--white);
   font-weight: 600;
-  margin-bottom: 14px;
+  margin-bottom: 10px;
 }
 
 .card-header .location {
@@ -76,10 +76,12 @@ body {
   color: var(--white);
   font-size: 14px;
   font-weight: 600;
-  text-align: center;
   background-color: var(--grey);
   border: none;
   border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .card-social-links button:hover {
