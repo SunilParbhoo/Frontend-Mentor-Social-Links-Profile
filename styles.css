@@ -89,9 +89,39 @@ body {
 }
 
 .card-social-links button .icon {
-  margin-right: 10px;
+  transform: translateX(35px);
+  transition: transform 300ms ease;
+}
+
+.card-social-links button:hover .icon {
+  transform: translateX(-100%) scale(2);
+  visibility: visible;
 }
 
 .hide {
-  display: none;
+  visibility: hidden;
+}
+
+.attribution {
+  position: absolute;
+  bottom: 14px;
+  color: var(--white);
+  font-size: 12px;
+  font-weight: 300;
+}
+
+.attribution a {
+  text-decoration: none;
+  color: var(--green);
+}
+
+@media screen and (max-width: 550px) {
+  .card {
+    width: 324px;
+    height: 582px;
+    padding: 24px;
+  }
+  .card-social-links button {
+    width: 280px;
+  }
 }
