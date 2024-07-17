@@ -76,7 +76,22 @@ body {
   color: var(--white);
   font-size: 14px;
   font-weight: 600;
+  text-align: center;
   background-color: var(--grey);
   border: none;
   border-radius: 10px;
+}
+
+.card-social-links button:hover {
+  color: var(--grey);
+  background-color: var(--green);
+  cursor: pointer;
+}
+
+.card-social-links button .icon {
+  margin-right: 10px;
+}
+
+.hide {
+  display: none;
 }
