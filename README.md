@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Frontend Mentor Social Links Profile](https://www.frontendmentor.io/solutions/social-links-profile-FfBiUXw8qQ)
+- Live Site URL: [Social Links Profile](https://sunilparbhoo.github.io/Frontend-Mentor-Social-Links-Profile/)
 
 ## My process
 
