@@ -49,5 +49,5 @@ I enjoyed recreating this challenge. I found it tricky to get things lined up ju
 
 ## Author
 
-- GitHub - [Sunil Parbhoo](https://www.your-site.com)
+- GitHub - [Sunil Parbhoo](https://github.com/SunilParbhoo)
 - Frontend Mentor - [@sunilparbhoo](https://www.frontendmentor.io/profile/sunilparbhoo)
