@@ -57,12 +57,13 @@ body {
 .card-header .location {
   color: var(--green);
   font-size: 14px;
+  font-weight: 600;
 }
 
 .card-content .about {
   color: var(--white);
   font-size: 14px;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 .card-social-links li {
