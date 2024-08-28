@@ -106,7 +106,7 @@ body {
 }
 
 .attribution {
-  position: absolute;
+  position: fixed;
   bottom: 14px;
   color: var(--white);
   font-size: 12px;
